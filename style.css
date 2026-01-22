@@ -14,7 +14,10 @@ body {
 /* Header Section - LinkedIn style */
 .header-section {
   position: relative;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 200px;
   width: 100%;
 }
