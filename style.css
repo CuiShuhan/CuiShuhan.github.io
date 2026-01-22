@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f3f2ef;
+}
+
+/* Header Section - LinkedIn style */
+.header-section {
+  position: relative;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  height: 200px;
+  width: 100%;
+}
+
+.profile-container {
+  max-width: 1128px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 24px;
+}
+
+.profile-avatar {
+  position: absolute;
+  top: 120px;
+  left: 24px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 4px solid white;
+  background-color: #fff;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Main Content */
+.main-content {
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 100px 24px 40px;
+}
+
+/* Section Styling */
+.section {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Basic Info Section */
+.basic-info {
+  margin-top: 0;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.title {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.bio {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.8;
+  margin-top: 16px;
+}
+
+/* Work Experience */
+.experience-item {
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.experience-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.experience-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 4px;
+}
+
+.experience-company {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.experience-date {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 8px;
+}
+
+.experience-description {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  margin-top: 8px;
+}
+
+/* Projects Section */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.project-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  transition: box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.project-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.project-description {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.project-tech {
+  font-size: 12px;
+  color: #999;
+  font-style: italic;
+}
+
+/* Skills Section */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.skill-tag {
+  background-color: #f3f2ef;
+  color: #666;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Contact Section */
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #0a66c2;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #004182;
+  text-decoration: underline;
+}
+
+.contact-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profile-avatar {
+    width: 120px;
+    height: 120px;
+    top: 140px;
+  }
+
+  .main-content {
+    padding-top: 80px;
+  }
+
+  .name {
+    font-size: 24px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
