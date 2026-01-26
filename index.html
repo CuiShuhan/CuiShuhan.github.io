@@ -25,6 +25,7 @@
           <li>Currently practicing <strong>UI/UX design</strong> and <strong>product design</strong>, working on real-world projects to build design expertise</li>
           <li>Interested in <strong>AI product management</strong> and exploring how AI technologies can enhance user experiences</li>
           <li>Previous experience as a <strong>Software Development Engineer (SDE)</strong> with proficiency in <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>, bringing technical implementation skills to design work</li>
+          <li>I approach projects by <strong>planning ahead</strong>, identifying knowledge gaps, researching concepts thoroughly, and <strong>predicting potential risks</strong> to ensure successful outcomes</li>
         </ul>
       </div>
     </section>
@@ -54,28 +55,32 @@
       <div class="projects-grid">
         <div class="project-card">
           <h3 class="project-title">Toolbox – Focus-Oriented Time Management System (HCI Project)</h3>
-          <p class="project-description">Conducted comprehensive user interviews and co-design sessions to identify workflow pain points, develop user personas, and translate qualitative insights into optimized interaction flows and feature prioritization.</p>
-          <p class="project-description">Designed a focus-driven time management system for knowledge workers, reducing task-switching cognitive load through modular features including <strong>Toolbox Launcher</strong>, <strong>Context Recorder</strong>, and <strong>Focus Scheduler</strong>, supported by wireflows and interactive prototypes in <strong>Figma</strong> and <strong>Canva</strong>. </p>
-          <p class="project-description">Analyzed survey data collected via <strong>BlueSky Statistics</strong> using <strong>R</strong> (descriptive analysis & chi-square tests) on 3,000 simulated user interaction data points provided by the instructor to identify attention disruption patterns and inform data-driven design decisions.</p>
+          <img src="hci-design-process.png" alt="Design Thinking Process" class="project-image" style="width: 100%; max-width: 600px; margin: 12px 0; border-radius: 4px;">
+          <p class="project-description">Starting with the prompt "<strong>electronic device time management</strong>," we conducted <strong>user interviews</strong> and <strong>co-design sessions</strong> to identify workflow pain points, developed <strong>user personas</strong>, and designed three core features: <strong>Toolbox Launcher</strong>, <strong>Context Recorder</strong>, and <strong>Focus Scheduler</strong> to reduce task-switching cognitive load.</p>
+          <p class="project-description">Analyzed survey data using <strong>R</strong> and <strong>BlueSky Statistics</strong> to identify attention disruption patterns and inform data-driven design decisions.</p>
           <p class="project-tech" style="margin-top: 12px;">
             <strong>View High-Fidelity Design:</strong> <a href="https://www.canva.com/design/DAG1J6bLsDE/7D-Uq4qOSNlKZSyHILNRyg/edit?utm_content=DAG1J6bLsDE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Canva Design Link</a>
           </p>
-          <p class="project-tech">Tools: Figma, Canva, R, BlueSky Statistics | Methods: User Interviews, Persona Development, Co-design Sessions, Wireflows, Prototyping, Quantitative & Qualitative Analysis, A/B Testing</p>
+          <p class="project-tech">Tools: Figma, Canva, R, BlueSky Statistics | Methods: User Interviews, Co-design Sessions, Persona Development, Wireflows, Prototyping, Quantitative & Qualitative Analysis</p>
         </div>
         <div class="project-card">
           <h3 class="project-title">Financial Sentiment Analysis — Reflection-driven AI System</h3>
-          <p class="project-description">Designed a reflection-driven iterative algorithm with a multi-role architecture, separating sentiment classification and error reflection through role-based prompts, enabling 1–3 round self-correction and a reusable reflection knowledge base.</p>
-          <p class="project-description">Built a Top-K retrieval mechanism using sentence embeddings and cosine similarity to inject relevant historical reflection cases into model context, significantly improving prediction accuracy over non-reflection baselines.</p>
-          <p class="project-description">Evaluated the reflection algorithm across multiple model families (GPT-4o-mini, Qwen-Plus, DeepSeek, LSTM) and configurations, comparing no-reflection, single/multi-round reflection, and reflection+RAG strategies to assess performance, stability, and cost trade-offs.</p>
-          <p class="project-description">Analyzed cross-model and cross-parameter behavior to identify where reflection yields the greatest gains, explaining performance differences through error pattern and reasoning-depth analysis to inform product-level model selection.</p>
-          <p class="project-tech">Tech Stack: VS Code, Python, API Integration, Prompt Engineering, RAG, Hugging Face BERT, Sentence Embeddings, Cosine Similarity</p>
+          <p class="project-description">Recognizing that many <strong>STEM students</strong> want to understand finance and investing but lack domain expertise, we built an algorithm to analyze sentiment in financial text. Users can input sentences into our system, which determines the emotional tone and predicts financial market direction.</p>
+          <p class="project-description">Applied our reflection-driven algorithm to <strong>three AI models</strong> (GPT-4o-mini, Qwen-Plus, DeepSeek) and compared their performance, identifying where reflection yields the greatest gains. Currently, we've implemented the core sentiment analysis algorithm. Future plans include building a frontend interface and implementing backend monitoring (using tools like Arize) to track and improve the accuracy of each sentence's prediction.</p>
+          <p class="project-tech" style="margin-top: 12px;">
+            <strong>GitHub:</strong> <a href="https://github.com/CuiShuhan/fsa" target="_blank">https://github.com/CuiShuhan/fsa</a>
+          </p>
+          <p class="project-tech">Tech Stack: Python, API Integration, Prompt Engineering, RAG, Hugging Face BERT, Sentence Embeddings | Methods: Reflection-driven Algorithm, Multi-model Evaluation, Product Comparison, Error Analysis</p>
         </div>
         <div class="project-card">
           <h3 class="project-title">Legal-NER Enhancement Project</h3>
-          <p class="project-description">Enhanced a RoBERTa-based legal NER system by integrating multi-jurisdictional annotated corpora, expanding coverage to 15 legal entity types.</p>
-          <p class="project-description">Built a GPU-accelerated training pipeline using <strong>spaCy</strong> and <strong>PyTorch</strong> with custom token alignment and chunk-based preprocessing for long legal documents.</p>
-          <p class="project-description">Achieved 94.5% F1-score and reduced validation loss by 30%, and developed auto-labeling workflows to support scalable self-training with silver-standard data.</p>
-          <p class="project-tech">Tech Stack: Python, RoBERTa, spaCy, PyTorch, GPU Acceleration, NLP, Deep Learning | Period: Jan 2025 – Apr 2025</p>
+          <img src="https://raw.githubusercontent.com/peterngng/AI_NER-main/main/NER_example.png" alt="Legal NER Example" class="project-image" style="width: 100%; max-width: 600px; margin: 12px 0; border-radius: 4px;" onerror="this.style.display='none'">
+          <p class="project-description">Enhanced a RoBERTa-based legal Named Entity Recognition (NER) system by integrating multi-jurisdictional annotated corpora, expanding coverage to 15 legal entity types. Built a GPU-accelerated training pipeline with custom preprocessing for long legal documents.</p>
+          <p class="project-description">Achieved <strong>94.5% F1-score</strong> and reduced validation loss by 30%, with auto-labeling workflows to support scalable self-training.</p>
+          <p class="project-tech" style="margin-top: 12px;">
+            <strong>GitHub:</strong> <a href="https://github.com/peterngng/AI_NER-main" target="_blank">https://github.com/peterngng/AI_NER-main</a>
+          </p>
+          <p class="project-tech">Tech Stack: Python, RoBERTa, spaCy, PyTorch, GPU Acceleration, NLP | Methods: Multi-jurisdictional Corpus Integration, Custom Token Alignment, Auto-labeling | Period: Jan 2025 – Apr 2025</p>
         </div>
       </div>
     </section>

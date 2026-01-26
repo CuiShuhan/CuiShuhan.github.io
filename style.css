@@ -245,6 +245,14 @@ body {
   font-weight: 600;
 }
 
+.project-image {
+  width: 100%;
+  max-width: 600px;
+  margin: 12px 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
 /* Skills Section */
 .skills-container {
   display: flex;
@@ -278,6 +286,23 @@ body {
 }
 
 .skills-description strong {
+  color: #000;
+  font-weight: 600;
+}
+
+/* Interests Section */
+.interests-description {
+  margin-top: 16px;
+}
+
+.interests-description p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.interests-description strong {
   color: #000;
   font-weight: 600;
 }
